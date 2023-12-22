@@ -30,8 +30,6 @@ dan ganti file InputManager.asset yang lama dengan file InputManager.asset yang 
 9. Install dependency tersebut.
 10. Setelah selesai, tutup dialog package manager tersebut, dan buka navigasi Edit -> Project Settings.
 ![Alt text](readme_images/image9.png)
-11. Pilih menu Graphics, ubah setelan menjadi seperti gambar dibawah.
-![Alt text](readme_images/image17.png)
 11. Pilih menu Graphics -> URP Global Settings, lalu tekan tombol lingkaran dengan kotak pada bagian kanan, lalu pilih URP yang telah terinstall.
 ![Alt text](readme_images/image10.png)
 12. Pilih menu Quality, lalu pilih menu Render Pipeline Asset dan pilih Asset Pipeline yang telah diinstall.
@@ -40,13 +38,18 @@ dan ganti file InputManager.asset yang lama dengan file InputManager.asset yang 
 ![Alt text](readme_images/image12.png)
 14. Kembali ke navigasi Edit -> Project Settings, pergi ke menu Scene Template, tekan semua checkbox yang tersedia.
 ![Alt text](readme_images/image13.png)
-15. Cari GameObject Player -> MainCamera
+15. Menuju Assets -> Reimport All kembali projek.
+16. Kembali ke Edit -> Project Settings, pergi ke menu Graphics dan ubah menjadi seperti ini. 
+17. Pilih menu Graphics, ubah setelan menjadi seperti gambar dibawah.
+![Alt text](readme_images/image17.png)
+**Apabila steps dibawah tidak muncul, coba lakukan CTRL + S (SAVE) dan Reimport All kembali**
+18. Cari GameObject Player -> MainCamera
 ![Alt text](readme_images/image14.png)
-16. Add Component Volume
+19. Add Component Volume
 ![Alt text](readme_images/image15.png)
-17. Pilih PostProcessingProfile untuk Profilenya.
+20. Pilih PostProcessingProfile untuk Profilenya.
 ![Alt text](readme_images/image16.png)
-18. Cari GameObject Player -> WeaponCamera, cari Component `Rendering`, ubah Culling Mask menjadi
+21. Cari GameObject Player -> WeaponCamera, cari Component `Rendering`, ubah Culling Mask menjadi
 FirstPersonWeapon
 ![Alt text](readme_images/image18.png)
 
